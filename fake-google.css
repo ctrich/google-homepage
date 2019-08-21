@@ -1,0 +1,66 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: grey;
+}
+
+.nav-container {
+	margin-top: 30px;
+}
+
+.left-nav{
+	display: inline-flex;
+	margin-left: 40px;
+}
+.left-nav a {
+	margin-left: 10px;
+}
+
+.right-nav {
+	display: inline-flex;
+	align-items: center;
+	justify-content: space-between;
+	float: right;
+	margin-right: 50px;
+}
+.right-nav a {
+	margin-right: 10px;
+}
+.logo{
+	grid-area: logo;
+}
+.search {
+	grid-area: search;
+}
+.button {
+	grid-area: searchButton;
+}
+.center-grid {
+	align-content: center;
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25vh;
+	display: grid;
+	justify-content: center;
+}
+.button-container {
+	margin-top: 20px;
+}
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.form-container {
+	display: grid;
+	justify-content: center;
+	grid-row-gap: 10px;
+}
