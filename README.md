@@ -1,1 +1,1 @@
-Copy of the google homepage for the firstproject in The Odin Project.
+Copy of the google homepage for the first project in The Odin Project.
